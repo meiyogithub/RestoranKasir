@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarMenus">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <TextView
+            android:id="@+id/tv_daftarMenu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Daftar Menu"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btn_paketA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:layout_weight="0.5"
+                    android:onClick="kePaketA"
+                    android:text="Paket A"
+                    app:backgroundTint="#F44336" />
+
+                <Button
+                    android:id="@+id/btn_paketB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:onClick="kePaketB"
+                    android:text="Paket B"
+                    app:backgroundTint="#E91E63" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btn_paketC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:layout_weight="0.5"
+                    android:onClick="kePaketC"
+                    android:text="Paket C"
+                    app:backgroundTint="#9C27B0" />
+
+                <Button
+                    android:id="@+id/btn_paketD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:layout_weight="0.5"
+                    android:onClick="kePaketD"
+                    android:text="Paket D"
+                    app:backgroundTint="#673AB7" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btn_paketE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:layout_weight="0.5"
+                    android:onClick="kePaketE"
+                    android:text="Paket E"
+                    app:backgroundTint="#3F51B5" />
+
+                <Button
+                    android:id="@+id/btn_paketF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:layout_weight="0.5"
+                    android:onClick="kePaketF"
+                    android:text="Paket F"
+                    app:backgroundTint="#2196F3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

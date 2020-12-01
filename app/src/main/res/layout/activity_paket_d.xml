@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_menuA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PaketD"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:text="Menu Paket D"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="313dp"
+        app:srcCompat="@drawable/liwet" />
+
+    <TextView
+        android:id="@+id/tv_harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga" />
+
+    <EditText
+        android:id="@+id/et_harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tv_jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah" />
+
+    <EditText
+        android:id="@+id/et_jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/diskon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diskon" />
+
+    <EditText
+        android:id="@+id/et_jumlahDiskon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_pesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="keHitung"
+        android:text="Pesan Sekarang" />
+</LinearLayout>

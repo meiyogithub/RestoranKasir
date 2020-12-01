@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".HitungPesanan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_pesanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesanan Resto"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tv_menuPaket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu Paket" />
+
+        <EditText
+            android:id="@+id/et_menuPaket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:ems="10"
+            android:hint="Menu"
+            android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tv_harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga" />
+
+        <EditText
+            android:id="@+id/et_harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tv_jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah" />
+
+        <EditText
+            android:id="@+id/et_jumlah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tv_jumlahHargaPesanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Harga Pesanan" />
+
+        <EditText
+            android:id="@+id/et_jumlahHargaPesanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tv_jumlahDiskon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Diskon" />
+
+        <EditText
+            android:id="@+id/et_jumlahDiskon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tv_totalBayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Bayar" />
+
+        <EditText
+            android:id="@+id/et_totalBayar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btb_kembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="keMenuUtama"
+        android:text="Kembali ke Menu Utama" />
+    </LinearLayout>
+</ScrollView>
